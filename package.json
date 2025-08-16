@@ -45,6 +45,7 @@
     "axios": "^1.9.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
+    "combined-stream": "^1.0.8",
     "dotenv": "^17.2.1",
     "dotenv-expand": "^12.0.2",
     "fast-safe-stringify": "^2.1.1",
