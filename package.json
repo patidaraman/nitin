@@ -50,6 +50,7 @@
     "natural": "^8.1.0",
     "openai": "^5.10.1",
     "pdf-parse": "^1.1.1",
+    "proxy-from-env": "^1.1.0",
     "qs": "^6.14.0",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1",
