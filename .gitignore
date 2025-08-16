@@ -1,0 +1,166 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Upload directories
+uploads/
+temp/
+
+# Test files
+*.test.js
+*.spec.js
+
+# Documentation that's not needed in repo
+*.md.backup
+VAPI_CLEAN_OFFICIAL.php
+VAPI_FINAL_ES6.php
+VAPI_OFFICIAL_SDK.php
+VAPI_OFFICIAL_WIDGET.php
+VAPI_PERFECT_POSITION.php
+VAPI_SCRIPT_LOADING.php
+CORRECTED_FOOTER_CODE.php
+WORKING_ELEMENTOR_VERSION.html
+WHATSAPP_CHATBOT_SOP.md
+
+# Qodo directory
+.qodo/
+
+
+# compiled output
+/dist
+/node_modules
+/build
+
+
+
+# Documentation files with example values that trigger secrets scanning
+VAPI_INTEGRATION_GUIDE.md
+WHATSAPP_CHATBOT_SOP.md
+WORKING_ELEMENTOR_VERSION.html
+CORRECTED_FOOTER_CODE.php
+WORKING_CURL_COMMANDS.md
+src/twilio/README.md
+src/twilio/AI_VOICE_SYSTEM.md
+.env.example
+Dockerfile
+docker-compose.yml
+nginx.conf
+src/health-check.js
+
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
