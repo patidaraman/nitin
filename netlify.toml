@@ -1,13 +1,11 @@
 [build]
-  command = "pnpm install --frozen-lockfile && pnpm run build --verbose"
+  command = "pnpm run build"
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18"
-  PNPM_VERSION = "8"
+  NODE_VERSION = "22"
+  PNPM_VERSION = "9"
   SECRETS_SCAN_ENABLED = "false"
-  NPM_FLAGS = "--version"
-  COREPACK_ENABLE_STRICT = "0"
 
 # Disable secrets scanning entirely since we've removed actual secret values
 [build.processing.secrets]
