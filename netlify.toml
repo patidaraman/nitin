@@ -3,8 +3,8 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "20.11.0"
-  PNPM_VERSION = "9.1.0"
+  NODE_VERSION = "18"
+  PNPM_VERSION = "8"
   SECRETS_SCAN_ENABLED = "false"
   NPM_FLAGS = "--version"
   COREPACK_ENABLE_STRICT = "0"
