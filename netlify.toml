@@ -6,6 +6,8 @@
   NODE_VERSION = "22"
   PNPM_VERSION = "9"
   SECRETS_SCAN_ENABLED = "false"
+  NPM_FLAGS = "--version"
+  COREPACK_ENABLE_STRICT = "0"
 
 # Disable secrets scanning entirely since we've removed actual secret values
 [build.processing.secrets]
